@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "ubuntu-bold";
+    src: url(assets/font/Ubuntu-B.ttf) format("truetype");
+}
+@font-face {
+    font-family: "ubuntu-regular";
+    src: url(assets/font/Ubuntu-R.ttf) format("truetype");
+}
+@font-face {
+    font-family: "ubuntu-medium";
+    src: url(assets/font/Ubuntu-M.ttf) format("truetype");
+}
+@font-face {
+    font-family: "ubuntu-medium-italic";
+    src: url(assets/font/Ubuntu-MI.ttf) format("truetype");
+}
+@font-face {
+    font-family: "ubuntu-light";
+    src: url(assets/font/Ubuntu-L.ttf) format("truetype");
+}
+
+html,
+body {
+    margin: 0 !important;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.toast-container {
+    background-image: linear-gradient(#14213d, #14213d) !important;
+    border-radius: 22px !important;
+    box-shadow: -5px 8px 16px 0px rgba(0, 0, 0, 0.3) !important;
+    margin-bottom: 2px !important;
+}
+.toast-container .ngx-toastr {
+    box-shadow: none !important;
+}
+.toast-container .ngx-toastr:hover {
+    box-shadow: none !important;
+}
+.toast-container .toast {
+    margin: 2px !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    background-color: #fff !important;
+}
+
+//   .toast-success {
+//     background-color: transparent !important;
+//     //background-image: url(assets/img/icons/message-chat-lines.png) !important;
+//     background-image: none !important;
+//   }
+
+//   .toast-success::after {
+//     position: absolute !important;
+//     top: 14px !important;
+//     left: 15px !important;
+//     color: #FFF !important;
+//     font-size: 1.5em !important;
+//   }
+
+//   .toast-error {
+//     background-color: transparent !important;
+//     //background-image: url(assets/img/icons/message-chat-lines.png) !important;
+//     background-image: none !important;
+//   }
+
+//   .toast-error::after {
+//     position: absolute !important;
+//     top: 14px !important;
+//     left: 15px !important;
+//     color: #FFF !important;
+//     font-size: 1.5em !important;
+//   }
+
+//   .toast-title {
+//     color: #FFF !important;
+//     font-size: 12px !important;
+//     font-family: "ubuntu-light", "sans-serif";
+//   }
+
+//   .toast-message {
+//     color: #FFF !important;
+//     font-size: 12px !important;
+//     font-family: "ubuntu-light", "sans-serif";
+//   }
+
+//   .toast-message .description-section .post-title {
+//     font-family: 'ubuntu-bold', sans-serif;
+//     font-size: 15px;
+//     margin-top: 10px;
+//     letter-spacing: 0rem;
+//     text-align: left;
+//   }
+
+//   .toast-message .notification-circle-profile-pic{
+//     width: 5vh;
+//   }
+
+//   .toast-message .img-circle {
+//     background-color: transparent;
+//     margin-bottom: 2px;
+//     padding: 0px;
+//     border-radius: 50% !important;
+//     max-width: 100%;
+//   }
+
+//   .toast-message .img-profile-pic-post{
+//     padding-left: 1vh;
+//     padding-right: 0px;
+//   }

@@ -1,0 +1,55 @@
+/*!
+
+ =========================================================
+ * Paper Kit 2 Angular - v1.1.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/we-at-we-2-angular
+ * Copyright 2017 Creative Tim (https://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/timcreative/we-at-we/blob/master/LICENSE.md)
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ */
+
+@import "we-at-we/variables";
+@import "we-at-we/mixins";
+
+@import "we-at-we/typography";
+
+// Core CSS
+@import "we-at-we/misc";
+@import "we-at-we/buttons";
+@import "we-at-we/inputs";
+@import "we-at-we/progress-bars";
+@import "we-at-we/sliders";
+@import "we-at-we/alerts";
+@import "we-at-we/labels";
+@import "we-at-we/tooltips-and-popovers";
+@import "we-at-we/sections";
+@import "we-at-we/checkbox-radio";
+@import "we-at-we/navbars";
+@import "we-at-we/images";
+@import "we-at-we/cards";
+@import "we-at-we/footers";
+
+
+// Bootstrap Switch
+@import "we-at-we/bootstrap-switch";
+
+// Fancy Stuff
+@import "we-at-we/dropdown";
+//
+// icons
+@import "we-at-we/icons";
+//
+@import "we-at-we/tabs-navs-pagination";
+@import "we-at-we/collapse";
+//@import "we-at-we/carousel";
+@import "we-at-we/modal";
+//
+@import "we-at-we/responsive";
+@import "we-at-we/plugins/datetimepicker";
+@import "we-at-we/social-buttons";
+@import "we-at-we/examples";
